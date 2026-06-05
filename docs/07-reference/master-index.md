@@ -20,5 +20,6 @@
 | Add commands | [Adding a command](../04-extensibility/adding-a-command.md) | `../../src/Commands/CommandInterface.php`, `../../config/commands.php` |
 | Copy examples | [Examples](../05-examples/README.md) | `../../src/Commands/`, `../../tests/` |
 | Explore a delivery-business bot concept | [Delivery operations bot blueprint](../05-examples/delivery-operations-bot-blueprint.md) | Future planning example; current implementation remains the skeleton source and tests. |
+| Catalogue delivery-business data requirements | [Delivery operations data requirements index](../05-examples/delivery-operations-data-requirements-index.md) | Future planning example mapping proposed outputs to source data, formulas, sensitivity, and command consumers. |
 | Initialize a coding LLM session or maintain docs | [Coding LLM session primer](../06-maintainer-guides/coding-llm-session-primer.md), [Documentation maintenance](../06-maintainer-guides/documentation-maintenance.md), [Documentation study report](../06-maintainer-guides/documentation-study-report.md), [Documentation audit report](../06-maintainer-guides/documentation-audit-report.md) | `../../docs/` |
 | Review decisions | [Decision records index](decision-records-index.md) | `../08-architecture-decisions/` |

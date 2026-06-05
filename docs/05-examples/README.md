@@ -19,6 +19,7 @@ These examples match the current command interface and registry shape. They are 
 | [Command using Discord message safely](example-command-with-discord-message.md) | Null-guarding `$context->message()`. | Snippet. |
 | [Tests for a new command](example-tests-for-new-command.md) | PHPUnit direct command tests. | Full test-file pattern. |
 | [Delivery operations bot blueprint](delivery-operations-bot-blueprint.md) | Future delivery-business command suite, route-note workflow, dispatcher/manager tools, and MVP planning boundaries. | Planning reference; all unimplemented product ideas are labeled **Future consideration**. |
+| [Delivery operations data requirements index](delivery-operations-data-requirements-index.md) | Data needed to calculate proposed delivery outputs such as stops/hour, required pace, route notes, risk, rescues, broadcasts, and manager summaries. | Planning reference; all unimplemented data and calculations are labeled **Future consideration**. |
 
 ## Verification checklist for examples
 

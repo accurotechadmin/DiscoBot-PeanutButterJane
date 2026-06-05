@@ -4,13 +4,15 @@
 **Status:** Future planning example
 **Last reviewed:** 2026-06-05
 **Related files:** `../../README.md`, `../../bin/bot.php`, `../../bin/sync-slash-commands.php`, `../../config/bot.php`, `../../config/commands.php`, `../../src/Bot.php`, `../../src/CommandRouter.php`, `../../src/CommandContext.php`, `../../src/Commands/`, `../../tests/`
-**Related docs:** [Application at a glance](../00-start-here/application-at-a-glance.md), [How to use these docs](../00-start-here/how-to-use-these-docs.md), [Adding a command](../04-extensibility/adding-a-command.md), [Command registration and aliases](../04-extensibility/command-registration-and-aliases.md), [Interaction paths reference](../03-technical-reference/interaction-paths-reference.md), [Configuration reference](../03-technical-reference/configuration-reference.md), [Examples](README.md), [Component inventory](../07-reference/component-inventory.md)
+**Related docs:** [Application at a glance](../00-start-here/application-at-a-glance.md), [How to use these docs](../00-start-here/how-to-use-these-docs.md), [Delivery operations data requirements index](delivery-operations-data-requirements-index.md), [Adding a command](../04-extensibility/adding-a-command.md), [Command registration and aliases](../04-extensibility/command-registration-and-aliases.md), [Interaction paths reference](../03-technical-reference/interaction-paths-reference.md), [Configuration reference](../03-technical-reference/configuration-reference.md), [Examples](README.md), [Component inventory](../07-reference/component-inventory.md)
 
 This document is a product and implementation blueprint for turning the current DiscordPHP Bot Skeleton into a delivery-operations assistant for a package delivery business. It expands the idea of driver self-service, dispatcher visibility, manager intelligence, shared route knowledge, route notes, polls, broadcast workflows, and actionable delivery insights.
 
 Current behavior: the repository is still a lightweight, framework-free PHP CLI DiscordPHP bot skeleton. It currently includes the built-in `ping`, `time`, `settings`, `echo`, and `help` commands, configurable prefix/slash/mention/DM interaction paths, optional daily JSON logs, startup validation, command routing, lifecycle handling, and a basic in-memory rate limiter. It does not currently include delivery-business commands, route storage, driver profiles, dispatcher dashboards, manager analytics, approval workflows, polls, external integrations, databases, queues, web controllers, dashboards, or hosted deployment automation.
 
 Every product feature, command, workflow, storage concept, integration idea, dashboard, alert, approval flow, route-note system, and automation described below is **Future consideration** unless a later source change implements it.
+
+For a companion catalogue of the exact data needed to calculate or formulate each proposed output, see [Delivery Operations Data Requirements Index](delivery-operations-data-requirements-index.md).
 
 ## 1. Product vision
 
