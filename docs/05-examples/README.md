@@ -2,7 +2,7 @@
 
 **Audience:** Command authors who want copyable snippets.
 **Status:** Current example set
-**Last reviewed:** 2026-06-03
+**Last reviewed:** 2026-06-05
 **Related files:** `../../src/Commands/CommandInterface.php`, `../../src/CommandContext.php`, `../../config/commands.php`, `../../tests/BuiltInCommandsTest.php`, `../../tests/CommandRouterTest.php`
 **Related docs:** [Adding a command](../04-extensibility/adding-a-command.md), [Command registration and aliases](../04-extensibility/command-registration-and-aliases.md), [Testing new commands](../04-extensibility/testing-new-commands.md)
 
@@ -20,6 +20,7 @@ These examples match the current command interface and registry shape. They are 
 | [Tests for a new command](example-tests-for-new-command.md) | PHPUnit direct command tests. | Full test-file pattern. |
 | [Delivery operations bot blueprint](delivery-operations-bot-blueprint.md) | Future delivery-business command suite, route-note workflow, dispatcher/manager tools, and MVP planning boundaries. | Planning reference; all unimplemented product ideas are labeled **Future consideration**. |
 | [Delivery operations data requirements index](delivery-operations-data-requirements-index.md) | Data needed to calculate proposed delivery outputs such as stops/hour, required pace, route notes, risk, rescues, broadcasts, and manager summaries. | Planning reference; all unimplemented data and calculations are labeled **Future consideration**. |
+| [Delivery operations owner feature proposal](delivery-operations-owner-feature-proposal.md) | Slim business-owner checklist for approving, deferring, or rejecting proposed delivery feature packages, formulas, data needs, visibility rules, and build phases. | Planning proposal; all unimplemented feature packages, data, workflows, and formulas are labeled **Future consideration**. |
 
 ## Verification checklist for examples
 
