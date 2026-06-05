@@ -2,9 +2,9 @@
 
 **Audience:** People installing, configuring, inviting, running, and using the bot.
 **Status:** Current guide
-**Last reviewed:** 2026-06-04
+**Last reviewed:** 2026-06-05
 **Related files:** `../../README.md`, `../../.env.example`, `../../bin/bot.php`, `../../config/bot.php`, `../../config/commands.php`
-**Related docs:** [From GitHub to a running bot](from-github-to-running-bot.md), [Quick start](quick-start.md), [Troubleshooting](troubleshooting.md), [Technical reference](../03-technical-reference/README.md)
+**Related docs:** [Authoritative installation, startup, and configuration guide](installation-startup-configuration-guide.md), [From GitHub to a running bot](from-github-to-running-bot.md), [Quick start](quick-start.md), [Troubleshooting](troubleshooting.md), [Technical reference](../03-technical-reference/README.md)
 
 These guides keep implementation detail light and focus on getting a working Discord bot into a server or DM, with prefix commands enabled by default and optional slash, mention, and DM paths.
 
@@ -12,6 +12,7 @@ These guides keep implementation detail light and focus on getting a working Dis
 
 | Page | Use it for |
 | --- | --- |
+| [Authoritative installation, startup, and configuration guide](installation-startup-configuration-guide.md) | Single consolidated source for local, staging, and production-server installation, startup, configuration, and operation within current repository boundaries. |
 | [From GitHub to a running bot](from-github-to-running-bot.md) | Complete path from fresh checkout to responding bot that is ready to extend. |
 | [Installation](installation.md) | Install Composer dependencies and understand requirements. |
 | [Quick start](quick-start.md) | Shortest path from clone to running process. |
