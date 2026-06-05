@@ -2,9 +2,9 @@
 
 **Audience:** People responsible for running the bot process.
 **Status:** Current guide
-**Last reviewed:** 2026-06-03
+**Last reviewed:** 2026-06-05
 **Related files:** `../../bin/bot.php`, `../../.env.example`, `../../config/bot.php`, `../../src/ConsoleLogger.php`, `../../composer.json`
-**Related docs:** [Environment management](environment-management.md), [Security and secrets](security-and-secrets.md), [Startup validation](startup-validation.md), [Logging and log levels](logging-and-log-levels.md), [Runtime lifecycle](../03-technical-reference/runtime-lifecycle.md)
+**Related docs:** [Authoritative installation, startup, and configuration guide](../01-user-guides/installation-startup-configuration-guide.md), [Environment management](environment-management.md), [Security and secrets](security-and-secrets.md), [Startup validation](startup-validation.md), [Logging and log levels](logging-and-log-levels.md), [Runtime lifecycle](../03-technical-reference/runtime-lifecycle.md)
 
 These guides focus on operating the current CLI process safely. The repository provides a lightweight DiscordPHP bot process, not a deployment platform or infrastructure bundle.
 
@@ -12,6 +12,7 @@ These guides focus on operating the current CLI process safely. The repository p
 
 | Page | Use it for | Source alignment |
 | --- | --- | --- |
+| [Authoritative installation, startup, and configuration guide](../01-user-guides/installation-startup-configuration-guide.md) | Follow the consolidated local-to-production-server installation, startup, configuration, and operation path. | `../../README.md`, `../../.env.example`, `../../composer.json`, `../../bin/bot.php`, `../../config/bot.php` |
 | [Environment management](environment-management.md) | Keep `.env` and process environment values predictable. | `../../bin/bot.php`, `../../config/bot.php`, `../../.env.example` |
 | [Security and secrets](security-and-secrets.md) | Protect the Discord bot token and avoid leaking runtime settings. | `../../.env.example`, `../../config/bot.php`, `../../src/Commands/SettingsCommand.php` |
 | [Startup validation](startup-validation.md) | Understand fail-fast checks before DiscordPHP connects. | `../../bin/bot.php`, `../../src/ConfigValidator.php` |

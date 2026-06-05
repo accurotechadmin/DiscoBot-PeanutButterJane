@@ -2,9 +2,9 @@
 
 **Audience:** Readers who need orientation before installing, running, or extending the bot.
 **Status:** Current guide
-**Last reviewed:** 2026-06-04
+**Last reviewed:** 2026-06-05
 **Related files:** `../../README.md`, `../../bin/bot.php`, `../../src/Bot.php`, `../../src/CommandRouter.php`
-**Related docs:** [Documentation home](../README.md), [Application at a glance](application-at-a-glance.md), [Documentation map](documentation-map.md), [From GitHub to a running bot](../01-user-guides/from-github-to-running-bot.md), [Glossary](../07-reference/glossary.md)
+**Related docs:** [Documentation home](../README.md), [Application at a glance](application-at-a-glance.md), [Documentation map](documentation-map.md), [Authoritative installation, startup, and configuration guide](../01-user-guides/installation-startup-configuration-guide.md), [From GitHub to a running bot](../01-user-guides/from-github-to-running-bot.md), [Glossary](../07-reference/glossary.md)
 
 Start here if you are new to the repository or need a quick mental model before using deeper guides.
 
@@ -38,4 +38,4 @@ Current behavior: it is not Laravel, Symfony, a web app, a database-backed appli
 
 ## Next step
 
-If you want the complete first-run path from GitHub checkout to responding bot, continue to [From GitHub to a Running Bot](../01-user-guides/from-github-to-running-bot.md). If you only need the shortest command list, use [Quick start](../01-user-guides/quick-start.md). If you want to add commands, start with [Adding a command](../04-extensibility/adding-a-command.md).
+If you want the consolidated path from GitHub checkout through local, staging, or production-server operation, continue to the [Authoritative Installation, Startup, and Configuration Guide](../01-user-guides/installation-startup-configuration-guide.md). If you want the complete first-run path from GitHub checkout to responding bot, use [From GitHub to a Running Bot](../01-user-guides/from-github-to-running-bot.md). If you only need the shortest command list, use [Quick start](../01-user-guides/quick-start.md). If you want to add commands, start with [Adding a command](../04-extensibility/adding-a-command.md).

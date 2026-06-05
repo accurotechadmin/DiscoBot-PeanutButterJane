@@ -32,19 +32,21 @@ The bot starts with `php bin/bot.php` or `composer bot`, loads optional `.env` v
 
 ### Users
 1. [Application at a glance](00-start-here/application-at-a-glance.md)
-2. [From GitHub to a running bot](01-user-guides/from-github-to-running-bot.md)
-3. [Quick start](01-user-guides/quick-start.md)
-4. [Installation](01-user-guides/installation.md)
-5. [Configuration](01-user-guides/configuration.md)
-6. [Running the bot](01-user-guides/running-the-bot.md)
-7. [Built-in commands](01-user-guides/built-in-commands.md)
+2. [Authoritative installation, startup, and configuration guide](01-user-guides/installation-startup-configuration-guide.md)
+3. [From GitHub to a running bot](01-user-guides/from-github-to-running-bot.md)
+4. [Quick start](01-user-guides/quick-start.md)
+5. [Installation](01-user-guides/installation.md)
+6. [Configuration](01-user-guides/configuration.md)
+7. [Running the bot](01-user-guides/running-the-bot.md)
+8. [Built-in commands](01-user-guides/built-in-commands.md)
 
 ### Operators
-1. [Environment management](02-operator-guides/environment-management.md)
-2. [Security and secrets](02-operator-guides/security-and-secrets.md)
-3. [Startup validation](02-operator-guides/startup-validation.md)
-4. [Logging and log levels](02-operator-guides/logging-and-log-levels.md)
-5. [Running in long-lived sessions](02-operator-guides/running-in-long-lived-sessions.md)
+1. [Authoritative installation, startup, and configuration guide](01-user-guides/installation-startup-configuration-guide.md)
+2. [Environment management](02-operator-guides/environment-management.md)
+3. [Security and secrets](02-operator-guides/security-and-secrets.md)
+4. [Startup validation](02-operator-guides/startup-validation.md)
+5. [Logging and log levels](02-operator-guides/logging-and-log-levels.md)
+6. [Running in long-lived sessions](02-operator-guides/running-in-long-lived-sessions.md)
 
 ### Command authors
 1. [Adding a command](04-extensibility/adding-a-command.md)
