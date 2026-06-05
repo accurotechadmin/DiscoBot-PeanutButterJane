@@ -18,6 +18,7 @@ These examples match the current command interface and registry shape. They are 
 | [Command using config](example-command-with-config.md) | Reading safe values from `$context->config()`. | Snippet. |
 | [Command using Discord message safely](example-command-with-discord-message.md) | Null-guarding `$context->message()`. | Snippet. |
 | [Tests for a new command](example-tests-for-new-command.md) | PHPUnit direct command tests. | Full test-file pattern. |
+| [Delivery operations bot blueprint](delivery-operations-bot-blueprint.md) | Future delivery-business command suite, route-note workflow, dispatcher/manager tools, and MVP planning boundaries. | Planning reference; all unimplemented product ideas are labeled **Future consideration**. |
 
 ## Verification checklist for examples
 
